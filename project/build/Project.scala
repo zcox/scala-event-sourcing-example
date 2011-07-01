@@ -2,7 +2,7 @@ import sbt._
 
 class Project(info: ProjectInfo) extends ParentProject(info) {
   val LiftVersion = "2.3"
-  val ScalazVersion = "6.0-SNAPSHOT"
+  val ScalazVersion = "6.0.1" //"6.0-SNAPSHOT"
   val Slf4jVersion = "1.6.1"
 
   val snapshots = "snapshots" at "http://scala-tools.org/repo-snapshots"
